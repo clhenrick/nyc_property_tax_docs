@@ -8,8 +8,11 @@ Scraping data from NYC Dept Of Finance building tax document PDFs
 - [ ] determine which properties have rent stabilized units
 - [ ] determine rent stabilized unit increase or decrease from 2009 - 2014
 
-## Sample URL: 
-  * http://nycprop.nyc.gov/nycproperty/StatementSearch?bbl=5008810161&stmtDate=20141121&stmtType=SOA
+## URL Endpoints: 
+* **Example URL for a PDF Document:** For a property in Staten Island (5) with the block 881 and lot 161:  
+  http://nycprop.nyc.gov/nycproperty/StatementSearch?bbl=5008810161&stmtDate=20141121&stmtType=SOA
+* **Note:** URLs don't all use the same date for statements so it might be better to do a POST request in the following URL: http://nycprop.nyc.gov/nycproperty/nynav/jsp/selectbbl.jsp  
+Then do a search for the links to the quarterly statements.
   
 ## PDF scraping options
   * [pdf.js](http://mozilla.github.io/pdf.js/)
