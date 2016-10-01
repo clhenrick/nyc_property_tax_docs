@@ -1,6 +1,8 @@
 # nyc_property_tax_docs
 Scraping data from NYC Dept Of Finance building tax document PDFs
 
+## DEPRECIATED: PROJECT MOVED TO [talos/nyc-stabilization-unit-counts](https://github.com/talos/nyc-stabilization-unit-counts)
+
 ## To Do:
 
 - [ ] script to dl PDFs by bbl & date
